@@ -7,7 +7,7 @@ import connectDatabase from "./config/database.config";
 import { error } from "console";
 import { errorHandler } from "./middlewares/errorHandler.middleware";
 import { HTTPSTATUS } from "./config/http.config";
-import { asyncHandler } from "./middlewares/asyncHanlder";
+import { asyncHandler } from "./middlewares/asyncHandler";
 
 const app = express();
 const BASE_PATH = config.BASE_PATH;
